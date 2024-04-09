@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Car Rental</string>
+    <string name="about_the_app_1"><u>Car Rental</u> is a company that rents cars automobiles
+        for short periods of time for a fee. It is often organized with numerous local branches
+        and primarily located near airports or busy city areas and often complemented
+        by an app allowing online reservations.</string>
+    <string name="about_the_app_2"><u>Car Rental</u> primarily serves people who have a car
+        that is temporarily out of reach or out of service,
+        for example travellers who are out of town or owners of damaged or destroyed vehicles
+        who are awaiting repair or insurance compensation.</string>
+</resources>

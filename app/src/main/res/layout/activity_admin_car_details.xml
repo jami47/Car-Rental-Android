@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminCarDetails"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="@drawable/top_background"
+        >
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/carnamelayout_admincardetails"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+
+
+            android:hint="Car Name"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            app:errorTextColor="#EA0A0A"
+
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/carname_admincardetails"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="none"
+                android:editable="false"
+                android:clickable="false"
+                android:maxLength="23"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_marginTop="7dp"
+            android:id="@+id/carratinglayout_admincardetails"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+
+
+            android:hint="Car Rating"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+
+            app:errorTextColor="#EA0A0A"
+
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/carrating_admincardetails"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="none"
+                android:editable="false"
+                android:maxLength="7"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_marginTop="7dp"
+            android:id="@+id/carpricelayout_admincardetails"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+
+            app:endIconMode="clear_text"
+            android:hint="Car Rent"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+
+            app:errorTextColor="#EA0A0A"
+
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/carprice_admincardetails"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:maxLength="23"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/update_admincardetails"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Update"
+            >
+
+        </androidx.appcompat.widget.AppCompatButton>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/delete_admincardetails"
+            android:layout_marginStart="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Delete"
+            >
+
+        </androidx.appcompat.widget.AppCompatButton>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/back_admincardetails"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Back"
+
+            >
+
+        </androidx.appcompat.widget.AppCompatButton>
+
+    </LinearLayout>
+
+</LinearLayout>
